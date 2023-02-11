@@ -1,3 +1,51 @@
 header{
-    background-image: linear-gradient(to right, red, yellow);
+    
+    
+    color: white;
+    border-radius: 15px;
+    border-color: black;
+   background-color: black;
+   
+   
+}
+.input_tit{
+    border-radius: 5px;
+    width: 250px;
+  gap: 10px;
+
+}
+header button{
+border-radius: 5px;
+border:  1px solid black;
+background-color: brown;
+color: black;
+}
+header button:hover{
+    border-radius: 5px;
+    font-size: medium;
+    border:  1px solid rgb(126, 68, 68);
+    background-color:rgb(209, 112, 112);
+    color: black;
+    }
+.gradiente-tit{
+    
+    font-size: 25px;
+    text-shadow: -2px -2px 3px black, 2px 2px 3px black,2px -2px 3px black, 2px 2px 3px black, -2px 2px 2px black;
+    background-image: radial-gradient( red, rgb(128, 0, 11));
+    text-align: center;
+    text-decoration:solid;
+    Line-height: 50px;
+    height: 50px;
+    gap:20px ;
+    border-color: black;
+}
+.img_header{
+    max-width: 50px;
+    max-height: 50px;
+}
+.texto{
+
+}
+header  ul{
+    list-style: none;
 }
