@@ -99,11 +99,21 @@ header  ul{
     color: white;
     text-align: center;
 }
+.seccion_datos{
+   
+    background-color: black;
+    padding: 2px 2px 2px 2px ;
+}
+.seccion_datos div{
+    background-image: radial-gradient(black, rgb(32, 28, 28));
+border-radius: 5px;
+color: whitesmoke;
+}
 .seccion1
 {
 background-color: black;
 
-padding: 0px 10px 10px 0px; /*top, right, bottom and left */
+padding: 20px 10px 10px 0px; /*top, right, bottom and left */
 display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
