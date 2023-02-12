@@ -2,6 +2,7 @@ header{
     color: white;
     border-color: black;
    background-color: black;
+   
 }
 .gradiente-tit{
     
@@ -105,17 +106,17 @@ background-color: black;
 padding: 0px 10px 10px 0px; /*top, right, bottom and left */
 display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 /*****************************A partir de esta sección esta todo lo relacionado a los botones del la primera seccion main ***********************/
 .seccion1 button{
     margin: 0px 20px 0px 20px;
-    width: 150px;
+    width: 210px;
+    height:  210px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     
-    height: 155px;
-
-  
+ 
 }
 .seccion1 button:hover{
     width: 220px;
@@ -215,12 +216,10 @@ footer ul{
     height: 50px;
 }
 .bi-instagram{
-    
     width: 20px;
     height: 20px;
     padding:  10px;
     font-size: 20px;
-   
     border-radius: 50%;
    background-color:#222326;  
    color: white;
@@ -265,7 +264,7 @@ footer ul{
 }
 
 /******************************A PARTIR DE AQUI EMPIEZA LO DE MEDIA SCREEN***********************************************/
-@media screen and (max-width: 750PX) {
+@media screen and (max-width: 986px) {
     .seccion1{
         grid-template-columns: repeat(3,1fr);
         gap:30px;
@@ -276,7 +275,7 @@ footer ul{
     }
    
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 740px) {
     .seccion1{
         grid-template-columns: repeat(2,1fr);
         gap:30px;
@@ -291,14 +290,14 @@ footer ul{
     }
    
 }
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 527px) {
     .seccion1{
         grid-template-columns: 1fr;
-        gap:30px;
+        gap:10px;
     }
     .contenedorfooter{
         grid-template-columns:  1fr;
-        gap:30px;
+        gap:10px;
     }
     .footer-img{
         width: 350px;
